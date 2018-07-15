@@ -1,0 +1,147 @@
+body {
+  margin: 50px;
+  padding: 0;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  font-weight: 700;
+  color: #757575;
+}
+
+.inputtext {
+  padding: 5px;
+  font-size: 0.6em;
+  position: relative;
+  right: -10%
+}
+
+.datefield {
+  width: 120px;
+  position: relative;
+  right: -10%
+}
+
+.popup {
+  min-height: 50px;
+}
+
+/************Linechart************/
+
+.linechart-container {
+  position:absolute;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.linechart {
+  padding: 8px;
+}
+.linechart-path {
+  stroke-width: 3;
+  fill: none;
+}
+
+.linechart-axis {
+  stroke: #bdc3c7;
+}
+
+.linechart-point {
+  fill: #fff;
+  stroke-width: 2;
+}
+
+.linechart-area {
+  padding: 8px;
+  fill: #64B5F6;
+  stroke: none;
+  opacity: .4;
+}
+
+.linechart-label {
+ fill: #64B5F6;
+ font-weight: 700;
+}
+
+.hoverLine {
+  stroke: #7D95B6;
+  stroke-width: 1;
+}
+
+/************Button************/
+
+.btn-coin {
+  position: relative;
+  left: -10%
+}
+
+.btn-coin:active {
+  background-color: #2196F3;
+  outline: none,
+}
+
+.btn-submit {
+  position: relative;
+  right: -10%
+}
+
+/************Box************/
+
+.hover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #2196F3;
+  color: white;
+}
+
+.hover .price {
+  font-weight: 700;
+}
+
+/************Tabs************/
+
+.tab-container {
+  margin-top: 15px;
+}
+
+.tab-container button {
+  width: 150px;
+  border-top: none;
+  border-left: none;
+  border-right:none;
+  height: 40px;
+  margin: 0;
+  font-size: 1.0em;
+}
+
+.tab-container button:focus {
+  outline: none;
+}
+
+.tab-select {
+  border-bottom: 2px solid red;
+}
+
+/************Tabs************/
+
+#api-footer {
+  font-weight: 300;
+}
+
+#api-footer active {
+  text-decoration: none;
+  color: inherit;
+}
