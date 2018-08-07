@@ -2,8 +2,6 @@
 
 A line chart that shows the price history of Bitcoin, Ethereum, and Litecoin.
 
-You can find the deployed version [here](http://ec2-34-227-160-235.compute-1.amazonaws.com/).
-
 ### Local Installation
 
 Clone this repository and create a local copy on your desktop:
